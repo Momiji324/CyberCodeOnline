@@ -38,7 +38,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} 比特币将被存入帮派的账户，这是不可逆转的",
+ 	 	 	 	 	"trans": "${amount} 比特币将被存入帮派的账户，此操作无法被撤销",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -3523,7 +3523,7 @@
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "旧式的纳米医疗机器人, 注射后可治疗所有的(看情况而定)创伤！",
+ 	 	 	 	"trans": "旧式的纳米医疗机器人, 注射后可治疗所有的(*看情况而定)创伤！",
  	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -3533,7 +3533,7 @@
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "注射后可治疗所有的(看情况而定)创伤！",
+ 	 	 	 	"trans": "注射后可治疗所有的(*看情况而定)创伤！",
  	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
@@ -3733,7 +3733,7 @@
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "一个有效的比特币挖取硬件, \r\n        可惜超频地使用会让其很容易烧毁,\r\n        可以在[工作中心]消耗它来获取比特币",
+ 	 	 	 	"trans": "一个有效的比特币挖取硬件, \r\n        可惜由于超频使用，它很容易烧毁,\r\n        可以在[工作中心]消耗它来获取比特币",
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
@@ -3822,7 +3822,7 @@
  	 	},
  	 	"clanResource": {
  	 	 	"name": {
- 	 	 	 	"trans": "供应箱[帮派]",
+ 	 	 	 	"trans": "物资箱[帮派]",
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
  	 	 	"description": {
@@ -4636,11 +4636,11 @@
  	 	},
  	 	"reverseMining": {
  	 	 	"name": {
- 	 	 	 	"trans": "比特币挖矿",
+ 	 	 	 	"trans": "启动比特币挖矿",
  	 	 	 	"eng": "initiate crypto mining"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "进行比特币挖矿以获得比特币，但是被用来挖矿的哈希处理器由于经常过载使用，内建的量子处理器会被烧毁。",
+ 	 	 	 	"trans": "进行比特币挖矿以获得比特币，但是被用来挖矿的哈希处理器由于经常超频使用，内建的量子处理器经常会被烧毁。",
  	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
  	 	 	}
  	 	},
@@ -4690,7 +4690,7 @@
  	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Konnichiwa !! UwU \r\n         您今天感觉很富有欧气吗？ \r\n         现在只需要1,000,000 比特币一次（限时特惠！）即可有0.1％的机会赢得史诗级别的物品！",
+ 	 	 	 	"trans": "Konnichiwa !! UwU \r\n         感觉今天欧气满满鸿运当头？ \r\n         现在只需要1,000,000 比特币一次（限时特惠！）即可有0.1％的机会赢得史诗级别的物品！",
  	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
@@ -4720,7 +4720,7 @@
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[线下经验获取]\r\n        部署AI芯片来自动探索地下城, 这将消耗一个AI芯片, 它们通常只能完成一次探索。",
+ 	 	 	 	"trans": "[经验挂机采集]\r\n        部署AI芯片来自动探索地下城, 这将消耗一个AI芯片, 它们通常只能完成一次探索。",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
@@ -4740,7 +4740,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "[线下资源搜寻]\r\n         在${zoneName}附近寻找有用的物资, 说不定会找到意想不到的好东西。",
+ 	 	 	 	"trans": "[资源挂机采集]\r\n         在${zoneName}附近寻找有用的物资, 说不定会找到意想不到的好东西。",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
  	 	 	}
  	 	}
@@ -5181,7 +5181,7 @@
  	"tier": {
  	 	"trash": {
  	 	 	"name": {
- 	 	 	 	"trans": "破损的",
+ 	 	 	 	"trans": "废弃的",
  	 	 	 	"eng": "trash"
  	 	 	}
  	 	},
@@ -5238,7 +5238,7 @@
  	 	 	"eng": "of Life"
  	 	},
  	 	"maxShield": {
- 	 	 	"trans": "屏蔽",
+ 	 	 	"trans": "护盾",
  	 	 	"eng": "of Shielding"
  	 	},
  	 	"sneaky": {
@@ -5254,11 +5254,11 @@
  	 	 	"eng": "with pockets"
  	 	},
  	 	"criticalChanceArmor": {
- 	 	 	"trans": "暴击机会",
+ 	 	 	"trans": "暴击率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalChanceWeapon": {
- 	 	 	"trans": "暴击机会",
+ 	 	 	"trans": "暴击率",
  	 	 	"eng": "of Crit Chance"
  	 	},
  	 	"criticalDamageArmor": {
@@ -5282,7 +5282,7 @@
  	 	 	"eng": "of Damage"
  	 	},
  	 	"upgradeShield": {
- 	 	 	"trans": "盾牌",
+ 	 	 	"trans": "护盾",
  	 	 	"eng": "of Shield"
  	 	},
  	 	"upgradeSneaky": {
@@ -5509,19 +5509,19 @@
  	 	 	 	"eng": "Please agree to the rules below before start chatting"
  	 	 	},
  	 	 	"rule1": {
- 	 	 	 	"trans": "没有垃圾信息或无意义的信息。",
+ 	 	 	 	"trans": "请勿发送垃圾信息或无意义的信息。",
  	 	 	 	"eng": "No spamming or meaningless message."
  	 	 	},
  	 	 	"rule2": {
- 	 	 	 	"trans": "没有个人攻击或威胁。",
+ 	 	 	 	"trans": "请勿进行个人攻击或发送威胁信息。",
  	 	 	 	"eng": "No personal attacks or threats."
  	 	 	},
  	 	 	"rule4": {
- 	 	 	 	"trans": "没有不合适的语言。",
+ 	 	 	 	"trans": "请勿在聊天室说脏话或搞黄色。",
  	 	 	 	"eng": "No inappropriate language."
  	 	 	},
  	 	 	"footer": {
- 	 	 	 	"trans": "如果您违反任何规则，您将被禁止发言",
+ 	 	 	 	"trans": "如果您违反以上任何规则，您将被禁止发言",
  	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
  	 	 	},
  	 	 	"footer2": {
@@ -5530,7 +5530,7 @@
  	 	 	},
  	 	 	"agreeToggle": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "嗯，我永远不会发垃圾信息或打破任何聊天规则",
+ 	 	 	 	 	"trans": "我已知悉并将遵守以上聊天规则",
  	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
  	 	 	 	}
  	 	 	},
@@ -5601,7 +5601,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"goToSettings": {
- 	 	 	 	"trans": "改为英语",
+ 	 	 	 	"trans": "改为英文",
  	 	 	 	"eng": "Change to English"
  	 	 	},
  	 	 	"confirmButton": {
@@ -5630,7 +5630,7 @@
  	 	},
  	 	"promotion": {
  	 	 	"title": {
- 	 	 	 	"trans": "广播收到",
+ 	 	 	 	"trans": "收到广播",
  	 	 	 	"eng": "Broadcast Received"
  	 	 	},
  	 	 	"dontShowAgain": {
@@ -5661,11 +5661,11 @@
  	 	},
  	 	"review": {
  	 	 	"title1": {
- 	 	 	 	"trans": "我是Dexter，此游戏的开发者，我希望到目前为止了解您的体验。",
+ 	 	 	 	"trans": "我是Dexter，此游戏的开发者，我希望到了解目前为止您的体验。",
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
- 	 	 	 	"trans": "您会给多少颗星？",
+ 	 	 	 	"trans": "您会给本游戏多少颗星？",
  	 	 	 	"eng": "How many stars would you give?"
  	 	 	},
  	 	 	"badReview": {
@@ -5676,7 +5676,7 @@
  	 	 	},
  	 	 	"goodReview": {
  	 	 	 	"title1": {
- 	 	 	 	 	"trans": "哇非常感谢！ 我很荣幸，请在我们的商店页面上留下此评价:)",
+ 	 	 	 	 	"trans": "哇，非常感谢！ 我很荣幸能获得如此高的评价，请在我们的商店页面上留下此评价:)",
  	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
@@ -5749,7 +5749,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"kick": {
- 	 	 	 	"trans": "移除",
+ 	 	 	 	"trans": "开除",
  	 	 	 	"eng": "Kick",
  	 	 	 	"description": {
  	 	 	 	 	"trans": "从帮派移除其他玩家。",
@@ -5787,7 +5787,7 @@
  	 	 	 	"eng": "Hello, dear players!"
  	 	 	},
  	 	 	"content2": {
- 	 	 	 	"trans": "我是Dexter，CCO的开发者",
+ 	 	 	 	"trans": "我是Dexter，本游戏的开发者",
  	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
  	 	 	},
  	 	 	"content3": {
@@ -5795,7 +5795,7 @@
  	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
  	 	 	},
  	 	 	"content4": {
- 	 	 	 	"trans": "请您在能接受的范围内捐赠，并且捐赠获得的好处对所有玩家们都是公平的，您并不会获得任何优势！",
+ 	 	 	 	"trans": "请您仅在能接受的范围内捐赠，并且捐赠获得的好处对所有玩家们都是公平的，您并不会获得任何游戏数值上的优势！",
  	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
  	 	 	}
  	 	},
@@ -5822,7 +5822,7 @@
  	 	 	"eng": "Discount ends in ${date}"
  	 	},
  	 	"permanentDescription": {
- 	 	 	"trans": "此标题永远不会过期。\\ 它将永远留在您的帐户上。",
+ 	 	 	"trans": "此头衔永远不会过期。\\ 它将永远留在您的帐户上。",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
